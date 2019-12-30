@@ -34,34 +34,16 @@ Right part - string
 
 ### Example:
 
-4 3 6
+2 1 2
 
-+ * ( )
-
-S T F
+a b
 
 S
 
 S
 
-T+S
+S aaS
 
-S
-
-T
-
-T
-
-F*T
-
-T
-
-F
-
-(S)
-
-F
+S ab
 
 a
-
-(a+a)
