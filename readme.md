@@ -23,14 +23,18 @@ rm -r build
 ## To check if word is in the language
 ### Input:
 number of terminal symbols - int
+
 number of nonterminal symbols - int
+
 number of rules - int
+
 Terminals - char
+
 Nonterminals - char
+
 Starting nonterminal - char
-Rules
-Left part - char
-Right part - string
+
+Rules: Left part - char	Right part - string
 
 ### Example:
 
@@ -46,4 +50,4 @@ S aaS
 
 S ab
 
-a
+aaab
