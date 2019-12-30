@@ -21,7 +21,7 @@ cd ..
 rm -r build
 
 ## To check if word is in the language
-# Input:
+### Input:
 number of terminal symbols - int
 number of nonterminal symbols - int
 number of rules - int
@@ -32,21 +32,36 @@ Rules
 Left part - char
 Right part - string
 
-# Example:
+### Example:
+
 4 3 6
+
 + * ( )
+
 S T F
+
 S
+
 S
+
 T+S
+
 S
+
 T
+
 T
+
 F*T
+
 T
+
 F
-F
+
 (S)
+
 F
+
 a
+
 (a+a)
